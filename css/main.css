@@ -1,0 +1,22 @@
+html,
+body {
+    margin:0;
+padding: 0;
+}
+
+body {
+    background: url("http://localhost:63342/testApp/img/meat.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 0 2px;
+    position: relative;
+}
+
