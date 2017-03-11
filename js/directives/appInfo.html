@@ -1,19 +1,20 @@
-<img usemap="#slicemap" class="icon" ng-src="{{ info.icon }}">
 <h2 class="title">{{ info.title }}</h2>
+<img usemap="#slicemap" class="icon" ng-src="{{ info.icon }}">
 
 <map name="#slicemap">
-    <area shape="rect" coords="250,130,330,360" href="neck.htm" alt="Neck">
-    <area shape="rect" coords="345,125,410,260" href="chuck.htm" alt="Chuck">
-    <area shape="rect" coords="330,270,420,370" href="thickrib.htm" alt="ThickRib">
-    <area shape="rect" coords="420,120,525,245" href="forerib.htm" alt="ForeRib">
-    <area shape="rect" coords="425,245,525,370" href="thinrib.htm" alt="ThinRib">
-    <area shape="rect" coords="350,370,550,420" href="baisket.htm" alt="Baisket">
-    <area shape="rect" coords="420,420,490,540" href="shin.htm" alt="Shin">
-    <area shape="rect" coords="525,120,800,265" href="sirloin.htm" alt="Sirloin">
-    <area shape="rect" coords="525,285,846,415" href="flank.htm" alt="Flank">
-    <area shape="rect" coords="820,110,900,260" href="rump.htm" alt="Rump">
-    <area shape="rect" coords="910,105,985,235" href="silverside.htm" alt="SilverSide">
-    <area shape="rect" coords="1000,120,1050,225" href="topside.htm" alt="TopSide">
-    <area shape="rect" coords="895,250,1025,355" href="thickflank.htm" alt="ThickFlank">
-    <area shape="rect" coords="925,365,1020,460" href="leg.htm" alt="Leg">
+    <area shape="rect" coords={{info.neck}} href="neck.htm" alt="Neck">
+    <area shape="rect" coords={{info.chuck}} href="chuck.htm" alt="Chuck">
+    <area shape="rect" coords={{info.thickrib}} href="thickrib.htm" alt="ThickRib">
+    <area shape="rect" coords={{info.forerib}} href="forerib.htm" alt="ForeRib">
+    <area shape="rect" coords={{info.thinrib}} href="thinrib.htm" alt="ThinRib">
+    <area shape="rect" coords={{info.baisket}} href="baisket.htm" alt="Baisket">
+    <area shape="rect" coords={{info.shin}} href="shin.htm" alt="Shin">
+    <area shape="rect" coords={{info.sirloin}} href="sirloin.htm" alt="Sirloin">
+    <area shape="rect" coords={{info.flank}} href="flank.htm" alt="Flank">
+    <area shape="rect" coords={{info.rump}} href="rump.htm" alt="Rump">
+    <area shape="rect" coords={{info.silverside}} href="silverside.htm" alt="SilverSide">
+    <area shape="rect" coords={{info.topside}} href="topside.htm" alt="TopSide">
+    <area shape="rect" coords={{info.thickflank}} href="thickflank.htm" alt="ThickFlank">
+    <area shape="rect" coords={{info.leg}} href="leg.htm" alt="Leg">
 </map>
+
